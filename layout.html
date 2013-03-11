@@ -1,4 +1,4 @@
-{% extends "basic/layout.html" %}
+{% extends "basic_layout.html" %}
 
 {%- block extrahead %}
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
@@ -9,16 +9,13 @@
 {% endblock %}
 
 {% block header %}
-{%- if logo %}
-<div class="header">
-  <div class="logo">
-    <a href="{{ pathto(master_doc) }}">
-      <img class="logo" src="{{ pathto('_static/' + logo, 1) }}" width=100 alt="Logo"/>
-    </a>
-  </div>
-</div>
-{%- endif %}
 {% endblock %}
 
-{%- block sidebarlogo %}{%- endblock %}
+{%- block sidebarlogo %}
+  <div class="logo">
+    <a href="{{ pathto(master_doc) }}">
+      <img class="logo" src="{{ pathto('_static/' + logo, 1) }}" width=200 alt="Logo"/>
+    </a>
+  </div>
+{%- endblock %}
 {%- block sidebarsourcelink %}{%- endblock %}
