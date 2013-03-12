@@ -12,7 +12,8 @@
  */
  
 @import url("basic.css");
- 
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,700,400italic);
+
 /* -- page layout ----------------------------------------------------------- */
  
 body {
@@ -22,6 +23,8 @@ body {
     color: #FBFAF7;
     margin: 0;
     padding: 0;
+    line-height: 1.8em;
+    -webkit-font-smoothing: antialiased;
 }
 
 p, ol, table, dl {
@@ -61,6 +64,7 @@ div.body {
     font-size: 1em;
     border-right-style: none;
     overflow: auto;
+    padding-right: 75px;
 }
  
 div.footer {
