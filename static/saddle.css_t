@@ -19,7 +19,7 @@
 body {
     font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
-    background-color: #393939;
+    background-color: rgb(247, 247, 247);
     color: #FBFAF7;
     margin: 0;
     padding: 0;
@@ -68,7 +68,7 @@ div.body {
 }
  
 div.footer {
-    color: #FFFFFF;
+    color: black;
     width: 100%;
     padding: 13px 0;
     text-align: left;
@@ -79,7 +79,7 @@ div.footer {
 }
  
 div.footer a {
-    color: #FFFFFF;
+    color: red;
     text-decoration: none;
 }
 
