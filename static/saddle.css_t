@@ -231,9 +231,8 @@ div.admonition p.admonition-title + p {
     display: inline;
 }
 
-div.highlight{
+div.highlight {
     background-color: white;
-    margin-left: 25px;
     font-size: 12px;
 }
 
@@ -285,6 +284,8 @@ pre {
     border: 2px solid #C6C9CB;
     font-size: 1.1em;
     margin: 1.5em 0 1.5em 0;
+    margin-left: 25px;
+    font-size: 12px;
     border-right-style: none;
     border-left-style: none;
 }
