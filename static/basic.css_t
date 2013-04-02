@@ -312,6 +312,7 @@ div.body p.centered {
 table.docutils {
     border: 0;
     border-collapse: collapse;
+    width: 60%;
 }
 
 table.docutils td, table.docutils th {
