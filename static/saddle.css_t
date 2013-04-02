@@ -293,7 +293,7 @@ pre {
 tt {
     background-color: transparent;
     color: #222;
-    font-size: 1.1em;
+    font-size: 0.9em;
     font-family: monospace;
 }
 
